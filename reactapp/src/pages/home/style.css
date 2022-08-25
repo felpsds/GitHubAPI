@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202020;
+    color: #FFF;
+}
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    position: fixed;
+    top: 0;
+}
+.container input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.85);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+.search {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    transition: 0.65s;
+}
+.container button:hover{
+    transform: scale(1.1);
+    transition: 0.65s;
+}

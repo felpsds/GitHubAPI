@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    width: 50%;
+    margin: 5%;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+img{
+    display: flex;
+    max-width: 30%;
+}
+.infos{margin-bottom: 5%;}
+.infos p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.userinfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    align-items: center;
+}
+.profile{
+    border-radius: 40px;
+    color: #FFF;
+    font-size: 1.15rem;
+    width: 15%;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.55s;
+    padding: 5px;
+}
