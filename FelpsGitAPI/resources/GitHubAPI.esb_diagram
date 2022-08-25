@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_yH0wsCSYEe2UKcpe1rzvaw" type="Esb" name="GitHubAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_yqyT0CSYEe2UKcpe1rzvaw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yq5BgCSYEe2UKcpe1rzvaw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_Uh_pYCSaEe2UKcpe1rzvaw" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Uh_pYiSaEe2UKcpe1rzvaw" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_UiIMQCSaEe2UKcpe1rzvaw" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_UiLPkCSaEe2UKcpe1rzvaw" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiLPkSSaEe2UKcpe1rzvaw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_UiLPkiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_UiLPkySaEe2UKcpe1rzvaw"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiLPlCSaEe2UKcpe1rzvaw" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UiL2oCSaEe2UKcpe1rzvaw" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiL2oSSaEe2UKcpe1rzvaw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_UiL2oiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_UiL2oySaEe2UKcpe1rzvaw"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiL2pCSaEe2UKcpe1rzvaw" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UiL2pSSaEe2UKcpe1rzvaw" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiL2piSaEe2UKcpe1rzvaw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_UiL2pySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_UiL2qCSaEe2UKcpe1rzvaw"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiL2qSSaEe2UKcpe1rzvaw" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UiMdsCSaEe2UKcpe1rzvaw" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiMdsSSaEe2UKcpe1rzvaw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_UiMdsiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_UiMdsySaEe2UKcpe1rzvaw"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiMdtCSaEe2UKcpe1rzvaw" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UiMdtSSaEe2UKcpe1rzvaw" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_UiPhACSaEe2UKcpe1rzvaw" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_UiQvICSaEe2UKcpe1rzvaw" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_UiQvJSSaEe2UKcpe1rzvaw" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_Uic8YCSaEe2UKcpe1rzvaw" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UidjcCSaEe2UKcpe1rzvaw" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_UigmwCSaEe2UKcpe1rzvaw" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UigmwSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UigmwiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UigmwySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UigmxCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UigmxSSaEe2UKcpe1rzvaw" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UigmxiSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UigmxySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UigmyCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UigmySSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uic8YSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Uic8YiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Uic8YySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:LogMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uic8ZCSaEe2UKcpe1rzvaw" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UipJoCSaEe2UKcpe1rzvaw" type="3742">
+                      <children xmi:type="notation:Node" xmi:id="_Uiq-0CSaEe2UKcpe1rzvaw" type="3743">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uiq-0SSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uiq-0iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uiq-0ySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uiq-1CSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uiq-1SSaEe2UKcpe1rzvaw" type="3744">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uiq-1iSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uiq-1ySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uiq-2CSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uiq-2SSaEe2UKcpe1rzvaw" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uiq-2iSaEe2UKcpe1rzvaw" type="3745">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uiq-2ySaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uiq-3CSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uiq-3SSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uiq-3iSaEe2UKcpe1rzvaw"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uirl4CSaEe2UKcpe1rzvaw" type="3746">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_Uirl5SSaEe2UKcpe1rzvaw" type="7047">
+                          <children xmi:type="notation:Node" xmi:id="_UiyTkCSaEe2UKcpe1rzvaw" type="3660">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_UiyTlSSaEe2UKcpe1rzvaw" type="5165"/>
+                            <children xmi:type="notation:Node" xmi:id="_Ui1W4CSaEe2UKcpe1rzvaw" type="3661">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ui1W4SSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_Ui1W4iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_Ui1W4ySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:NamedEndpointInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ui1W5CSaEe2UKcpe1rzvaw"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiyTkSSaEe2UKcpe1rzvaw"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_UiyTkiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_UiyTkySaEe2UKcpe1rzvaw"/>
+                            <element xmi:type="esb:NamedEndpoint" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiyTlCSaEe2UKcpe1rzvaw" x="1282" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_Uirl5iSaEe2UKcpe1rzvaw" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uirl4SSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uirl4iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uirl4ySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:MediatorFlow" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uirl5CSaEe2UKcpe1rzvaw"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UipJoSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UipJoiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UipJoySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:CallMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UipJpCSaEe2UKcpe1rzvaw" x="149" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Ui5BQCSaEe2UKcpe1rzvaw" type="3761">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_Ui5oUCSaEe2UKcpe1rzvaw" type="5211"/>
+                      <children xmi:type="notation:Node" xmi:id="_Ui8EkCSaEe2UKcpe1rzvaw" type="3762">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ui8EkSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Ui8EkiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Ui8EkySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:DataMapperMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ui8ElCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Ui8ElSSaEe2UKcpe1rzvaw" type="3763">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ui8EliSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Ui8ElySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Ui8EmCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:DataMapperMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ui8EmSSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ui5BQSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Ui5BQiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Ui5BQySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:DataMapperMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ui5BRCSaEe2UKcpe1rzvaw" x="359" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UjDZUCSaEe2UKcpe1rzvaw" type="3496">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UjDZVSSaEe2UKcpe1rzvaw" type="5169"/>
+                      <children xmi:type="notation:Node" xmi:id="_UjGcoCSaEe2UKcpe1rzvaw" type="3036">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjGcoSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjGcoiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjGcoySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjGcpCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UjHDsCSaEe2UKcpe1rzvaw" type="3037">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjHDsSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjHDsiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjHDsySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjHDtCSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjDZUSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UjDZUiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UjDZUySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:EnrichMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjDZVCSaEe2UKcpe1rzvaw" x="483" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UjNxYCSaEe2UKcpe1rzvaw" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UjNxZSSaEe2UKcpe1rzvaw" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_UjQ0sCSaEe2UKcpe1rzvaw" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjQ0sSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjQ0siSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjQ0sySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjQ0tCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UjQ0tSSaEe2UKcpe1rzvaw" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjQ0tiSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjQ0tySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjQ0uCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjQ0uSSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjNxYSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UjNxYiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UjNxYySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:PropertyMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjNxZCSaEe2UKcpe1rzvaw" x="607" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UjbMwCSaEe2UKcpe1rzvaw" type="3742">
+                      <children xmi:type="notation:Node" xmi:id="_UjeQECSaEe2UKcpe1rzvaw" type="3743">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjeQESSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjeQEiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjeQEySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjeQFCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UjeQFSSaEe2UKcpe1rzvaw" type="3744">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjeQFiSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UjeQFySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UjeQGCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjeQGSSaEe2UKcpe1rzvaw" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uje3ICSaEe2UKcpe1rzvaw" type="3745">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uje3ISSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uje3IiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uje3IySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uje3JCSaEe2UKcpe1rzvaw"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uje3JSSaEe2UKcpe1rzvaw" type="3746">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_Uje3KiSaEe2UKcpe1rzvaw" type="7047">
+                          <children xmi:type="notation:Node" xmi:id="_UjnaACSaEe2UKcpe1rzvaw" type="3660">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_UjoBECSaEe2UKcpe1rzvaw" type="5165"/>
+                            <children xmi:type="notation:Node" xmi:id="_UjrrcCSaEe2UKcpe1rzvaw" type="3661">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjrrcSSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_UjrrciSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_UjrrcySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:NamedEndpointInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjrrdCSaEe2UKcpe1rzvaw"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjnaASSaEe2UKcpe1rzvaw"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_UjnaAiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_UjnaAySaEe2UKcpe1rzvaw"/>
+                            <element xmi:type="esb:NamedEndpoint" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjnaBCSaEe2UKcpe1rzvaw" x="1282" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_Uje3KySaEe2UKcpe1rzvaw" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uje3JiSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uje3JySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uje3KCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:MediatorFlow" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uje3KSSaEe2UKcpe1rzvaw"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UjbMwSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UjbMwiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UjbMwySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:CallMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjbMxCSaEe2UKcpe1rzvaw" x="731" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Uj0OUCSaEe2UKcpe1rzvaw" type="3780">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_Uj01YCSaEe2UKcpe1rzvaw" type="5213"/>
+                      <children xmi:type="notation:Node" xmi:id="_Uj9_UCSaEe2UKcpe1rzvaw" type="3781">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uj9_USSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uj9_UiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uj9_UySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:ForEachMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uj9_VCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uj-mYCSaEe2UKcpe1rzvaw" type="3782">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uj-mYSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uj-mYiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uj-mYySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:ForEachMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uj-mZCSaEe2UKcpe1rzvaw" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uj-mZSSaEe2UKcpe1rzvaw" type="3783">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uj-mZiSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uj-mZySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uj-maCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:ForEachMediatorTargetOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@targetOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uj-maSSaEe2UKcpe1rzvaw" x="80" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uj-maiSaEe2UKcpe1rzvaw" type="3784">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_Uj_NcCSaEe2UKcpe1rzvaw" type="7057">
+                          <children xmi:type="notation:Node" xmi:id="_UkPFECSaEe2UKcpe1rzvaw" type="3492">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_UkPsICSaEe2UKcpe1rzvaw" type="5167"/>
+                            <children xmi:type="notation:Node" xmi:id="_UkUkoCSaEe2UKcpe1rzvaw" type="3033">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UkUkoSSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_UkUkoiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_UkUkoySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:PropertyMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkUkpCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                            </children>
+                            <children xmi:type="notation:Node" xmi:id="_UkVLsCSaEe2UKcpe1rzvaw" type="3034">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UkVLsSSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_UkVLsiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_UkVLsySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:PropertyMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.0/@outputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkVLtCSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_UkPFESSaEe2UKcpe1rzvaw"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_UkPFEiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_UkPFEySaEe2UKcpe1rzvaw"/>
+                            <element xmi:type="esb:PropertyMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkPFFCSaEe2UKcpe1rzvaw" x="25" y="10" width="84" height="115"/>
+                          </children>
+                          <children xmi:type="notation:Node" xmi:id="_UkinECSaEe2UKcpe1rzvaw" type="3761">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_Ukj1MCSaEe2UKcpe1rzvaw" type="5211"/>
+                            <children xmi:type="notation:Node" xmi:id="_UknfkCSaEe2UKcpe1rzvaw" type="3762">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UknfkSSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_UknfkiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_UknfkySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:DataMapperMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.1/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UknflCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                            </children>
+                            <children xmi:type="notation:Node" xmi:id="_UkoGoCSaEe2UKcpe1rzvaw" type="3763">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UkoGoSSaEe2UKcpe1rzvaw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_UkoGoiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_UkoGoySaEe2UKcpe1rzvaw"/>
+                              <element xmi:type="esb:DataMapperMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.1/@outputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkoGpCSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_UkinESSaEe2UKcpe1rzvaw"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_UkinEiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_UkinEySaEe2UKcpe1rzvaw"/>
+                            <element xmi:type="esb:DataMapperMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.1"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkinFCSaEe2UKcpe1rzvaw" x="149" y="10" width="84" height="115"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_Uj_NcSSaEe2UKcpe1rzvaw" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uj-maySaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uj-mbCSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uj-mbSSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:MediatorFlow" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uj-mbiSaEe2UKcpe1rzvaw"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uj0OUSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Uj0OUiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Uj0OUySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:ForEachMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uj0OVCSaEe2UKcpe1rzvaw" x="941" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Ukzs0CSaEe2UKcpe1rzvaw" type="3496">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_Uk0T4CSaEe2UKcpe1rzvaw" type="5169"/>
+                      <children xmi:type="notation:Node" xmi:id="_Uk4lUCSaEe2UKcpe1rzvaw" type="3036">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uk4lUSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uk4lUiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uk4lUySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uk4lVCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Uk4lVSSaEe2UKcpe1rzvaw" type="3037">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uk4lViSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Uk4lVySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Uk4lWCSaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uk4lWSSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ukzs0SSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Ukzs0iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Ukzs0ySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:EnrichMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ukzs1CSaEe2UKcpe1rzvaw" x="1304" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UlEykCSaEe2UKcpe1rzvaw" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UlEylSSaEe2UKcpe1rzvaw" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_UlJrECSaEe2UKcpe1rzvaw" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlJrESSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UlJrEiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UlJrEySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlJrFCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UlKSICSaEe2UKcpe1rzvaw" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlKSISSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UlKSIiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UlKSIySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlKSJCSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlEykSSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UlEykiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UlEykySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:LogMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlEylCSaEe2UKcpe1rzvaw" x="1428" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_UlV4UCSaEe2UKcpe1rzvaw" type="3496">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UlV4VSSaEe2UKcpe1rzvaw" type="5169"/>
+                      <children xmi:type="notation:Node" xmi:id="_UlbX4CSaEe2UKcpe1rzvaw" type="3036">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlbX4SSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UlbX4iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UlbX4ySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlbX5CSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Ulb-8CSaEe2UKcpe1rzvaw" type="3037">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ulb-8SSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Ulb-8iSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Ulb-8ySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:EnrichMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ulb-9CSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlV4USSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_UlV4UiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_UlV4UySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:EnrichMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlV4VCSaEe2UKcpe1rzvaw" x="1552" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Ulm-ECSaEe2UKcpe1rzvaw" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_Ulm-FSSaEe2UKcpe1rzvaw" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_UlqocCSaEe2UKcpe1rzvaw" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlqocSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UlqociSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UlqocySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlqodCSaEe2UKcpe1rzvaw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_UlrPgCSaEe2UKcpe1rzvaw" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_UlrPgSSaEe2UKcpe1rzvaw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_UlrPgiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_UlrPgySaEe2UKcpe1rzvaw"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlrPhCSaEe2UKcpe1rzvaw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ulm-ESSaEe2UKcpe1rzvaw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Ulm-EiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Ulm-EySaEe2UKcpe1rzvaw"/>
+                      <element xmi:type="esb:RespondMediator" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ulm-FCSaEe2UKcpe1rzvaw" x="1676" y="38" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_UiQvJiSaEe2UKcpe1rzvaw" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiQvISSaEe2UKcpe1rzvaw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_UiQvIiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_UiQvIySaEe2UKcpe1rzvaw"/>
+                  <element xmi:type="esb:MediatorFlow" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiQvJCSaEe2UKcpe1rzvaw"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiPhASSaEe2UKcpe1rzvaw"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_UiPhAiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_UiPhAySaEe2UKcpe1rzvaw"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiPhBCSaEe2UKcpe1rzvaw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_UiQIECSaEe2UKcpe1rzvaw" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiQIESSaEe2UKcpe1rzvaw"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_UiQIEiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_UiQIEySaEe2UKcpe1rzvaw"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiQIFCSaEe2UKcpe1rzvaw"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiMdtiSaEe2UKcpe1rzvaw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_UiMdtySaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_UiMduCSaEe2UKcpe1rzvaw"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiMduSSaEe2UKcpe1rzvaw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_UiIMQSSaEe2UKcpe1rzvaw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_UiIMQiSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_UiIMQySaEe2UKcpe1rzvaw"/>
+            <element xmi:type="esb:APIResource" href="GitHubAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UiIMRCSaEe2UKcpe1rzvaw" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="GitHubAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uh_pYSSaEe2UKcpe1rzvaw" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_yqyT0SSYEe2UKcpe1rzvaw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yqyT0iSYEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_yqyT0ySYEe2UKcpe1rzvaw"/>
+    <element xmi:type="esb:EsbServer" href="GitHubAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yqyT1CSYEe2UKcpe1rzvaw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yH0wsSSYEe2UKcpe1rzvaw"/>
+  <element xmi:type="esb:EsbDiagram" href="GitHubAPI.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Ul6gECSaEe2UKcpe1rzvaw" type="4001" source="_Uj-mZSSaEe2UKcpe1rzvaw" target="_UkUkoCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ul6gESSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@targetOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ul6gEiSaEe2UKcpe1rzvaw" points="[11, 7, -5, -4]$[10, 6, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ul-xgCSaEe2UKcpe1rzvaw" type="4001" source="_UkVLsCSaEe2UKcpe1rzvaw" target="_UknfkCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ul_YkCSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ul_YkSSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmDqACSaEe2UKcpe1rzvaw" type="4001" source="_UiL2oCSaEe2UKcpe1rzvaw" target="_UigmwCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmDqASSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmDqAiSaEe2UKcpe1rzvaw" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmJJkCSaEe2UKcpe1rzvaw" type="4001" source="_UigmxSSaEe2UKcpe1rzvaw" target="_Uiq-0CSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmJJkSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmJJkiSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmNbACSaEe2UKcpe1rzvaw" type="4001" source="_Uiq-1SSaEe2UKcpe1rzvaw" target="_Ui8EkCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmNbASSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmNbAiSaEe2UKcpe1rzvaw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmRscCSaEe2UKcpe1rzvaw" type="4001" source="_Ui8ElSSaEe2UKcpe1rzvaw" target="_UjGcoCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmRscSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmRsciSaEe2UKcpe1rzvaw" points="[-11, 0, 75, 0]$[-80, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmV94CSaEe2UKcpe1rzvaw" type="4001" source="_UjHDsCSaEe2UKcpe1rzvaw" target="_UjQ0sCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmV94SSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmV94iSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Uma2YCSaEe2UKcpe1rzvaw" type="4001" source="_UjQ0tSSaEe2UKcpe1rzvaw" target="_UjeQECSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Uma2YSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uma2YiSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Umd5sCSaEe2UKcpe1rzvaw" type="4001" source="_UjeQFSSaEe2UKcpe1rzvaw" target="_Uj9_UCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Umd5sSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Umd5siSaEe2UKcpe1rzvaw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmiyMCSaEe2UKcpe1rzvaw" type="4001" source="_Uj-mYCSaEe2UKcpe1rzvaw" target="_Uk4lUCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmiyMSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmiyMiSaEe2UKcpe1rzvaw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmnDoCSaEe2UKcpe1rzvaw" type="4001" source="_Uk4lVSSaEe2UKcpe1rzvaw" target="_UlJrECSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmnDoSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmnDoiSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UmsjMCSaEe2UKcpe1rzvaw" type="4001" source="_UlKSICSaEe2UKcpe1rzvaw" target="_UlbX4CSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UmsjMSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UmsjMiSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Umw0oCSaEe2UKcpe1rzvaw" type="4001" source="_Ulb-8CSaEe2UKcpe1rzvaw" target="_UlqocCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Umw0oSSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Umw0oiSaEe2UKcpe1rzvaw" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UnJPICSaEe2UKcpe1rzvaw" type="4001" source="_Uiq-2iSaEe2UKcpe1rzvaw" target="_Ui1W4CSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UnJPISSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UnJPIiSaEe2UKcpe1rzvaw" points="[11, 0, -1299, -119]$[1304, 118, -6, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UnP80CSaEe2UKcpe1rzvaw" type="4001" source="_Uje3ICSaEe2UKcpe1rzvaw" target="_UjrrcCSaEe2UKcpe1rzvaw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UnP80SSaEe2UKcpe1rzvaw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="GitHubAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UnP80iSaEe2UKcpe1rzvaw" points="[11, 0, -1299, -119]$[1304, 118, -6, -1]"/>
+  </edges>
+</notation:Diagram>

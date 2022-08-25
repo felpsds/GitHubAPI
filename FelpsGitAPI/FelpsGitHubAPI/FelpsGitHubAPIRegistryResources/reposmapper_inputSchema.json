@@ -1,0 +1,391 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "id" : "http://wso2jsonschema.org/id",
+      "type" : "number"
+    },
+    "node_id" : {
+      "id" : "http://wso2jsonschema.org/node_id",
+      "type" : "string"
+    },
+    "name" : {
+      "id" : "http://wso2jsonschema.org/name",
+      "type" : "string"
+    },
+    "full_name" : {
+      "id" : "http://wso2jsonschema.org/full_name",
+      "type" : "string"
+    },
+    "private" : {
+      "id" : "http://wso2jsonschema.org/private",
+      "type" : "boolean"
+    },
+    "owner" : {
+      "id" : "http://wso2jsonschema.org/owner",
+      "type" : "object",
+      "properties" : {
+        "login" : {
+          "id" : "http://wso2jsonschema.org/owner/login",
+          "type" : "string"
+        },
+        "id" : {
+          "id" : "http://wso2jsonschema.org/owner/id",
+          "type" : "number"
+        },
+        "node_id" : {
+          "id" : "http://wso2jsonschema.org/owner/node_id",
+          "type" : "string"
+        },
+        "avatar_url" : {
+          "id" : "http://wso2jsonschema.org/owner/avatar_url",
+          "type" : "string"
+        },
+        "gravatar_id" : {
+          "id" : "http://wso2jsonschema.org/owner/gravatar_id",
+          "type" : "null"
+        },
+        "url" : {
+          "id" : "http://wso2jsonschema.org/owner/url",
+          "type" : "string"
+        },
+        "html_url" : {
+          "id" : "http://wso2jsonschema.org/owner/html_url",
+          "type" : "string"
+        },
+        "followers_url" : {
+          "id" : "http://wso2jsonschema.org/owner/followers_url",
+          "type" : "string"
+        },
+        "following_url" : {
+          "id" : "http://wso2jsonschema.org/owner/following_url",
+          "type" : "string"
+        },
+        "gists_url" : {
+          "id" : "http://wso2jsonschema.org/owner/gists_url",
+          "type" : "string"
+        },
+        "starred_url" : {
+          "id" : "http://wso2jsonschema.org/owner/starred_url",
+          "type" : "string"
+        },
+        "subscriptions_url" : {
+          "id" : "http://wso2jsonschema.org/owner/subscriptions_url",
+          "type" : "string"
+        },
+        "organizations_url" : {
+          "id" : "http://wso2jsonschema.org/owner/organizations_url",
+          "type" : "string"
+        },
+        "repos_url" : {
+          "id" : "http://wso2jsonschema.org/owner/repos_url",
+          "type" : "string"
+        },
+        "events_url" : {
+          "id" : "http://wso2jsonschema.org/owner/events_url",
+          "type" : "string"
+        },
+        "received_events_url" : {
+          "id" : "http://wso2jsonschema.org/owner/received_events_url",
+          "type" : "string"
+        },
+        "type" : {
+          "id" : "http://wso2jsonschema.org/owner/type",
+          "type" : "string"
+        },
+        "site_admin" : {
+          "id" : "http://wso2jsonschema.org/owner/site_admin",
+          "type" : "boolean"
+        }
+      }
+    },
+    "html_url" : {
+      "id" : "http://wso2jsonschema.org/html_url",
+      "type" : "string"
+    },
+    "description" : {
+      "id" : "http://wso2jsonschema.org/description",
+      "type" : "string"
+    },
+    "fork" : {
+      "id" : "http://wso2jsonschema.org/fork",
+      "type" : "boolean"
+    },
+    "url" : {
+      "id" : "http://wso2jsonschema.org/url",
+      "type" : "string"
+    },
+    "forks_url" : {
+      "id" : "http://wso2jsonschema.org/forks_url",
+      "type" : "string"
+    },
+    "keys_url" : {
+      "id" : "http://wso2jsonschema.org/keys_url",
+      "type" : "string"
+    },
+    "collaborators_url" : {
+      "id" : "http://wso2jsonschema.org/collaborators_url",
+      "type" : "string"
+    },
+    "teams_url" : {
+      "id" : "http://wso2jsonschema.org/teams_url",
+      "type" : "string"
+    },
+    "hooks_url" : {
+      "id" : "http://wso2jsonschema.org/hooks_url",
+      "type" : "string"
+    },
+    "issue_events_url" : {
+      "id" : "http://wso2jsonschema.org/issue_events_url",
+      "type" : "string"
+    },
+    "events_url" : {
+      "id" : "http://wso2jsonschema.org/events_url",
+      "type" : "string"
+    },
+    "assignees_url" : {
+      "id" : "http://wso2jsonschema.org/assignees_url",
+      "type" : "string"
+    },
+    "branches_url" : {
+      "id" : "http://wso2jsonschema.org/branches_url",
+      "type" : "string"
+    },
+    "tags_url" : {
+      "id" : "http://wso2jsonschema.org/tags_url",
+      "type" : "string"
+    },
+    "blobs_url" : {
+      "id" : "http://wso2jsonschema.org/blobs_url",
+      "type" : "string"
+    },
+    "git_tags_url" : {
+      "id" : "http://wso2jsonschema.org/git_tags_url",
+      "type" : "string"
+    },
+    "git_refs_url" : {
+      "id" : "http://wso2jsonschema.org/git_refs_url",
+      "type" : "string"
+    },
+    "trees_url" : {
+      "id" : "http://wso2jsonschema.org/trees_url",
+      "type" : "string"
+    },
+    "statuses_url" : {
+      "id" : "http://wso2jsonschema.org/statuses_url",
+      "type" : "string"
+    },
+    "languages_url" : {
+      "id" : "http://wso2jsonschema.org/languages_url",
+      "type" : "string"
+    },
+    "stargazers_url" : {
+      "id" : "http://wso2jsonschema.org/stargazers_url",
+      "type" : "string"
+    },
+    "contributors_url" : {
+      "id" : "http://wso2jsonschema.org/contributors_url",
+      "type" : "string"
+    },
+    "subscribers_url" : {
+      "id" : "http://wso2jsonschema.org/subscribers_url",
+      "type" : "string"
+    },
+    "subscription_url" : {
+      "id" : "http://wso2jsonschema.org/subscription_url",
+      "type" : "string"
+    },
+    "commits_url" : {
+      "id" : "http://wso2jsonschema.org/commits_url",
+      "type" : "string"
+    },
+    "git_commits_url" : {
+      "id" : "http://wso2jsonschema.org/git_commits_url",
+      "type" : "string"
+    },
+    "comments_url" : {
+      "id" : "http://wso2jsonschema.org/comments_url",
+      "type" : "string"
+    },
+    "issue_comment_url" : {
+      "id" : "http://wso2jsonschema.org/issue_comment_url",
+      "type" : "string"
+    },
+    "contents_url" : {
+      "id" : "http://wso2jsonschema.org/contents_url",
+      "type" : "string"
+    },
+    "compare_url" : {
+      "id" : "http://wso2jsonschema.org/compare_url",
+      "type" : "string"
+    },
+    "merges_url" : {
+      "id" : "http://wso2jsonschema.org/merges_url",
+      "type" : "string"
+    },
+    "archive_url" : {
+      "id" : "http://wso2jsonschema.org/archive_url",
+      "type" : "string"
+    },
+    "downloads_url" : {
+      "id" : "http://wso2jsonschema.org/downloads_url",
+      "type" : "string"
+    },
+    "issues_url" : {
+      "id" : "http://wso2jsonschema.org/issues_url",
+      "type" : "string"
+    },
+    "pulls_url" : {
+      "id" : "http://wso2jsonschema.org/pulls_url",
+      "type" : "string"
+    },
+    "milestones_url" : {
+      "id" : "http://wso2jsonschema.org/milestones_url",
+      "type" : "string"
+    },
+    "notifications_url" : {
+      "id" : "http://wso2jsonschema.org/notifications_url",
+      "type" : "string"
+    },
+    "labels_url" : {
+      "id" : "http://wso2jsonschema.org/labels_url",
+      "type" : "string"
+    },
+    "releases_url" : {
+      "id" : "http://wso2jsonschema.org/releases_url",
+      "type" : "string"
+    },
+    "deployments_url" : {
+      "id" : "http://wso2jsonschema.org/deployments_url",
+      "type" : "string"
+    },
+    "created_at" : {
+      "id" : "http://wso2jsonschema.org/created_at",
+      "type" : "string"
+    },
+    "updated_at" : {
+      "id" : "http://wso2jsonschema.org/updated_at",
+      "type" : "string"
+    },
+    "pushed_at" : {
+      "id" : "http://wso2jsonschema.org/pushed_at",
+      "type" : "string"
+    },
+    "git_url" : {
+      "id" : "http://wso2jsonschema.org/git_url",
+      "type" : "string"
+    },
+    "ssh_url" : {
+      "id" : "http://wso2jsonschema.org/ssh_url",
+      "type" : "string"
+    },
+    "clone_url" : {
+      "id" : "http://wso2jsonschema.org/clone_url",
+      "type" : "string"
+    },
+    "svn_url" : {
+      "id" : "http://wso2jsonschema.org/svn_url",
+      "type" : "string"
+    },
+    "homepage" : {
+      "id" : "http://wso2jsonschema.org/homepage",
+      "type" : "null"
+    },
+    "size" : {
+      "id" : "http://wso2jsonschema.org/size",
+      "type" : "number"
+    },
+    "stargazers_count" : {
+      "id" : "http://wso2jsonschema.org/stargazers_count",
+      "type" : "number"
+    },
+    "watchers_count" : {
+      "id" : "http://wso2jsonschema.org/watchers_count",
+      "type" : "number"
+    },
+    "language" : {
+      "id" : "http://wso2jsonschema.org/language",
+      "type" : "string"
+    },
+    "has_issues" : {
+      "id" : "http://wso2jsonschema.org/has_issues",
+      "type" : "boolean"
+    },
+    "has_projects" : {
+      "id" : "http://wso2jsonschema.org/has_projects",
+      "type" : "boolean"
+    },
+    "has_downloads" : {
+      "id" : "http://wso2jsonschema.org/has_downloads",
+      "type" : "boolean"
+    },
+    "has_wiki" : {
+      "id" : "http://wso2jsonschema.org/has_wiki",
+      "type" : "boolean"
+    },
+    "has_pages" : {
+      "id" : "http://wso2jsonschema.org/has_pages",
+      "type" : "boolean"
+    },
+    "forks_count" : {
+      "id" : "http://wso2jsonschema.org/forks_count",
+      "type" : "number"
+    },
+    "mirror_url" : {
+      "id" : "http://wso2jsonschema.org/mirror_url",
+      "type" : "null"
+    },
+    "archived" : {
+      "id" : "http://wso2jsonschema.org/archived",
+      "type" : "boolean"
+    },
+    "disabled" : {
+      "id" : "http://wso2jsonschema.org/disabled",
+      "type" : "boolean"
+    },
+    "open_issues_count" : {
+      "id" : "http://wso2jsonschema.org/open_issues_count",
+      "type" : "number"
+    },
+    "license" : {
+      "id" : "http://wso2jsonschema.org/license",
+      "type" : "null"
+    },
+    "allow_forking" : {
+      "id" : "http://wso2jsonschema.org/allow_forking",
+      "type" : "boolean"
+    },
+    "is_template" : {
+      "id" : "http://wso2jsonschema.org/is_template",
+      "type" : "boolean"
+    },
+    "web_commit_signoff_required" : {
+      "id" : "http://wso2jsonschema.org/web_commit_signoff_required",
+      "type" : "boolean"
+    },
+    "visibility" : {
+      "id" : "http://wso2jsonschema.org/visibility",
+      "type" : "string"
+    },
+    "forks" : {
+      "id" : "http://wso2jsonschema.org/forks",
+      "type" : "number"
+    },
+    "open_issues" : {
+      "id" : "http://wso2jsonschema.org/open_issues",
+      "type" : "number"
+    },
+    "watchers" : {
+      "id" : "http://wso2jsonschema.org/watchers",
+      "type" : "number"
+    },
+    "default_branch" : {
+      "id" : "http://wso2jsonschema.org/default_branch",
+      "type" : "string"
+    }
+  }
+}

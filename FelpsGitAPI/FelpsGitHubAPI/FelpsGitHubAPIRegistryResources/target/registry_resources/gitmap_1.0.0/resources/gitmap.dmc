@@ -1,0 +1,20 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.user = inputroot.login;
+outputroot.infos =  {};
+outputroot.infos.avatar_url = inputroot.avatar_url;
+outputroot.infos.html_url = inputroot.html_url;
+outputroot.infos.repos_url = inputroot.repos_url;
+outputroot.infos.followers = inputroot.followers;
+outputroot.infos.following = inputroot.following;
+return outputroot;
+};
+
+
+
+
+
+
+

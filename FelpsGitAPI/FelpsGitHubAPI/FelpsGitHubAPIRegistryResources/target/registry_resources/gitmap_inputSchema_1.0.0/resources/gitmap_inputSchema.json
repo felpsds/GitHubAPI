@@ -1,0 +1,137 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "login" : {
+      "id" : "http://wso2jsonschema.org/login",
+      "type" : "string"
+    },
+    "id" : {
+      "id" : "http://wso2jsonschema.org/id",
+      "type" : "number"
+    },
+    "node_id" : {
+      "id" : "http://wso2jsonschema.org/node_id",
+      "type" : "string"
+    },
+    "avatar_url" : {
+      "id" : "http://wso2jsonschema.org/avatar_url",
+      "type" : "string"
+    },
+    "gravatar_id" : {
+      "id" : "http://wso2jsonschema.org/gravatar_id",
+      "type" : "null"
+    },
+    "url" : {
+      "id" : "http://wso2jsonschema.org/url",
+      "type" : "string"
+    },
+    "html_url" : {
+      "id" : "http://wso2jsonschema.org/html_url",
+      "type" : "string"
+    },
+    "followers_url" : {
+      "id" : "http://wso2jsonschema.org/followers_url",
+      "type" : "string"
+    },
+    "following_url" : {
+      "id" : "http://wso2jsonschema.org/following_url",
+      "type" : "string"
+    },
+    "gists_url" : {
+      "id" : "http://wso2jsonschema.org/gists_url",
+      "type" : "string"
+    },
+    "starred_url" : {
+      "id" : "http://wso2jsonschema.org/starred_url",
+      "type" : "string"
+    },
+    "subscriptions_url" : {
+      "id" : "http://wso2jsonschema.org/subscriptions_url",
+      "type" : "string"
+    },
+    "organizations_url" : {
+      "id" : "http://wso2jsonschema.org/organizations_url",
+      "type" : "string"
+    },
+    "repos_url" : {
+      "id" : "http://wso2jsonschema.org/repos_url",
+      "type" : "string"
+    },
+    "events_url" : {
+      "id" : "http://wso2jsonschema.org/events_url",
+      "type" : "string"
+    },
+    "received_events_url" : {
+      "id" : "http://wso2jsonschema.org/received_events_url",
+      "type" : "string"
+    },
+    "type" : {
+      "id" : "http://wso2jsonschema.org/type",
+      "type" : "string"
+    },
+    "site_admin" : {
+      "id" : "http://wso2jsonschema.org/site_admin",
+      "type" : "boolean"
+    },
+    "name" : {
+      "id" : "http://wso2jsonschema.org/name",
+      "type" : "string"
+    },
+    "company" : {
+      "id" : "http://wso2jsonschema.org/company",
+      "type" : "string"
+    },
+    "blog" : {
+      "id" : "http://wso2jsonschema.org/blog",
+      "type" : "null"
+    },
+    "location" : {
+      "id" : "http://wso2jsonschema.org/location",
+      "type" : "string"
+    },
+    "email" : {
+      "id" : "http://wso2jsonschema.org/email",
+      "type" : "null"
+    },
+    "hireable" : {
+      "id" : "http://wso2jsonschema.org/hireable",
+      "type" : "null"
+    },
+    "bio" : {
+      "id" : "http://wso2jsonschema.org/bio",
+      "type" : "string"
+    },
+    "twitter_username" : {
+      "id" : "http://wso2jsonschema.org/twitter_username",
+      "type" : "null"
+    },
+    "public_repos" : {
+      "id" : "http://wso2jsonschema.org/public_repos",
+      "type" : "number"
+    },
+    "public_gists" : {
+      "id" : "http://wso2jsonschema.org/public_gists",
+      "type" : "number"
+    },
+    "followers" : {
+      "id" : "http://wso2jsonschema.org/followers",
+      "type" : "number"
+    },
+    "following" : {
+      "id" : "http://wso2jsonschema.org/following",
+      "type" : "number"
+    },
+    "created_at" : {
+      "id" : "http://wso2jsonschema.org/created_at",
+      "type" : "string"
+    },
+    "updated_at" : {
+      "id" : "http://wso2jsonschema.org/updated_at",
+      "type" : "string"
+    }
+  }
+}

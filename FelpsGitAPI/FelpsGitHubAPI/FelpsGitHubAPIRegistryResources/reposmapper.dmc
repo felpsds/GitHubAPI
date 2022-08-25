@@ -1,0 +1,12 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.name = inputroot.name;
+outputroot.html_url = inputroot.owner.html_url;
+outputroot.language = inputroot.language;
+return outputroot;
+};
+
+
+

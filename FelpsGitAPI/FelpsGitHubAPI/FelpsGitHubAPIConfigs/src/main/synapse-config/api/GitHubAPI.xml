@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/github" name="GitHubAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{user}">
+        <inSequence>
+            <log description="User Request" level="custom">
+                <property expression="fn:concat('Request from:', $ctx:uri.var.user)" name="user status"/>
+            </log>
+            <call>
+                <endpoint key="GitHubEP"/>
+            </call>
+            <datamapper config="gov:datamapper/gitmap.dmc" inputSchema="gov:datamapper/gitmap_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/gitmap_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/gitmap_xsltStyleSheet.xml"/>
+            <enrich>
+                <source clone="true" type="body"/>
+                <target property="body_context" type="property"/>
+            </enrich>
+            <property expression="json-eval($.infos.repos_url)" name="uri.var.repos" scope="default" type="STRING"/>
+            <call>
+                <endpoint key="repos"/>
+            </call>
+            <foreach expression="json-eval($)" id="itr1">
+                <sequence>
+                    <property expression="json-eval($)" name="repos_infos" scope="default" type="STRING"/>
+                    <datamapper config="gov:datamapper/reposmapper.dmc" inputSchema="gov:datamapper/reposmapper_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/reposmapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/reposmapper_xsltStyleSheet.xml"/>
+                </sequence>
+            </foreach>
+            <enrich>
+                <source clone="true" type="body"/>
+                <target property="target_property" type="property"/>
+            </enrich>
+            <log level="custom" separator=",">
+                <property name="Loop" value="ForLoop Success!! Now Enriching!"/>
+            </log>
+            <enrich>
+                <source clone="true" property="body_context" type="property"/>
+                <target action="child" xpath="json-eval($)"/>
+            </enrich>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
