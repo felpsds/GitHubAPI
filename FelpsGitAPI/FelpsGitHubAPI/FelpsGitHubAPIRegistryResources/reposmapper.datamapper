@@ -21,6 +21,7 @@
         <properties key="id" value="http://wso2jsonschema.org/name"/>
         <properties key="nullable" value="false"/>
         <outNode>
+          <outgoingLink/>
           <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
         </outNode>
         <inNode/>
@@ -87,7 +88,7 @@
           <properties key="id" value="http://wso2jsonschema.org/owner/html_url"/>
           <properties key="nullable" value="false"/>
           <outNode>
-            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
+            <outgoingLink/>
           </outNode>
           <inNode/>
         </node>
@@ -179,7 +180,9 @@
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/html_url"/>
         <properties key="nullable" value="false"/>
-        <outNode/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
+        </outNode>
         <inNode/>
       </node>
       <node name="description" schemaDataType="STRING" level="2">
@@ -537,6 +540,7 @@
         <properties key="id" value="http://wso2jsonschema.org/language"/>
         <properties key="nullable" value="false"/>
         <outNode>
+          <outgoingLink/>
           <outgoingLink inNode="//@output/@treeNode.0/@node.2/@inNode"/>
         </outNode>
         <inNode/>
@@ -689,21 +693,21 @@
         <properties key="id" value="http://wso2jsonschema.org/name"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.1"/>
       </node>
       <node name="html_url" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/html_url"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.5/@node.6/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.6/@outNode/@outgoingLink.0"/>
       </node>
       <node name="language" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/language"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.57/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.57/@outNode/@outgoingLink.1"/>
       </node>
       <properties key="type" value="object"/>
       <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>

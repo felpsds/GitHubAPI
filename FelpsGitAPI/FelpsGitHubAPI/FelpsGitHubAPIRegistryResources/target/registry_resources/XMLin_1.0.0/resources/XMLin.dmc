@@ -1,0 +1,14 @@
+map_S_memberList_S_root = function(){ 
+var outputroot={};
+
+var count_i_steamID64_07869588_1072_42fe_9d0a_bce18a840f5a = 0;
+outputroot =  {};
+
+for(i_steamID64_07869588_1072_42fe_9d0a_bce18a840f5a in inputmemberList.members.steamID64){
+outputroot.steamID64 = inputmemberList.members.steamID64[i_steamID64_07869588_1072_42fe_9d0a_bce18a840f5a]['__'];
+
+count_i_steamID64_07869588_1072_42fe_9d0a_bce18a840f5a++;
+}
+return outputroot;
+};
+

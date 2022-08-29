@@ -7,6 +7,7 @@
         <properties key="id" value="http://wso2jsonschema.org/login"/>
         <properties key="nullable" value="false"/>
         <outNode>
+          <outgoingLink/>
           <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
         </outNode>
         <inNode/>
@@ -30,7 +31,8 @@
         <properties key="id" value="http://wso2jsonschema.org/avatar_url"/>
         <properties key="nullable" value="false"/>
         <outNode>
-          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+          <outgoingLink/>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.1/@inNode"/>
         </outNode>
         <inNode/>
       </node>
@@ -53,7 +55,8 @@
         <properties key="id" value="http://wso2jsonschema.org/html_url"/>
         <properties key="nullable" value="false"/>
         <outNode>
-          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.1/@inNode"/>
+          <outgoingLink/>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.2/@inNode"/>
         </outNode>
         <inNode/>
       </node>
@@ -104,7 +107,8 @@
         <properties key="id" value="http://wso2jsonschema.org/repos_url"/>
         <properties key="nullable" value="false"/>
         <outNode>
-          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.2/@inNode"/>
+          <outgoingLink/>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.3/@inNode"/>
         </outNode>
         <inNode/>
       </node>
@@ -140,7 +144,9 @@
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/name"/>
         <properties key="nullable" value="false"/>
-        <outNode/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+        </outNode>
         <inNode/>
       </node>
       <node name="company" schemaDataType="STRING" level="2">
@@ -211,7 +217,8 @@
         <properties key="id" value="http://wso2jsonschema.org/followers"/>
         <properties key="nullable" value="false"/>
         <outNode>
-          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.3/@inNode"/>
+          <outgoingLink/>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.4/@inNode"/>
         </outNode>
         <inNode/>
       </node>
@@ -220,7 +227,8 @@
         <properties key="id" value="http://wso2jsonschema.org/following"/>
         <properties key="nullable" value="false"/>
         <outNode>
-          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.4/@inNode"/>
+          <outgoingLink/>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.5/@inNode"/>
         </outNode>
         <inNode/>
       </node>
@@ -253,48 +261,55 @@
         <properties key="id" value="http://wso2jsonschema.org/user"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.1"/>
       </node>
       <node name="infos" schemaDataType="OBJECT" level="2">
+        <node name="name" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/infos/name"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.18/@outNode/@outgoingLink.0"/>
+        </node>
         <node name="avatar_url" schemaDataType="STRING" level="3">
           <properties key="type" value="string"/>
           <properties key="id" value="http://wso2jsonschema.org/infos/avatar_url"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode incomingLink="//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.1"/>
         </node>
         <node name="html_url" schemaDataType="STRING" level="3">
           <properties key="type" value="string"/>
           <properties key="id" value="http://wso2jsonschema.org/infos/html_url"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode incomingLink="//@input/@treeNode.0/@node.6/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.6/@outNode/@outgoingLink.1"/>
         </node>
         <node name="repos_url" schemaDataType="STRING" level="3">
           <properties key="type" value="string"/>
           <properties key="id" value="http://wso2jsonschema.org/infos/repos_url"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode incomingLink="//@input/@treeNode.0/@node.13/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.13/@outNode/@outgoingLink.1"/>
         </node>
         <node name="followers" schemaDataType="NUMBER" level="3">
           <properties key="type" value="number"/>
           <properties key="id" value="http://wso2jsonschema.org/infos/followers"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode incomingLink="//@input/@treeNode.0/@node.28/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.28/@outNode/@outgoingLink.1"/>
         </node>
         <node name="following" schemaDataType="NUMBER" level="3">
           <properties key="type" value="number"/>
           <properties key="id" value="http://wso2jsonschema.org/infos/following"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode incomingLink="//@input/@treeNode.0/@node.29/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.29/@outNode/@outgoingLink.1"/>
         </node>
         <properties key="type" value="object"/>
         <properties key="id" value="http://wso2jsonschema.org/infos"/>
         <properties key="nullable" value="false"/>
-        <properties key="properties_id" value="{avatar_url={id=http://wso2jsonschema.org/infos/avatar_url, type=string}, html_url={id=http://wso2jsonschema.org/infos/html_url, type=string}, repos_url={id=http://wso2jsonschema.org/infos/repos_url, type=string}, followers={id=http://wso2jsonschema.org/infos/followers, type=number}, following={id=http://wso2jsonschema.org/infos/following, type=number}}"/>
+        <properties key="properties_id" value="{name={id=http://wso2jsonschema.org/infos/name, type=string}, avatar_url={id=http://wso2jsonschema.org/infos/avatar_url, type=string}, html_url={id=http://wso2jsonschema.org/infos/html_url, type=string}, repos_url={id=http://wso2jsonschema.org/infos/repos_url, type=string}, followers={id=http://wso2jsonschema.org/infos/followers, type=number}, following={id=http://wso2jsonschema.org/infos/following, type=number}}"/>
         <outNode/>
         <inNode/>
       </node>

@@ -13,6 +13,10 @@
       "id" : "http://wso2jsonschema.org/infos",
       "type" : "object",
       "properties" : {
+        "name" : {
+          "id" : "http://wso2jsonschema.org/infos/name",
+          "type" : "string"
+        },
         "avatar_url" : {
           "id" : "http://wso2jsonschema.org/infos/avatar_url",
           "type" : "string"

@@ -1,0 +1,99 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "memberList",
+  "type" : "object",
+  "properties" : {
+    "groupID64" : {
+      "id" : "http://wso2jsonschema.org/groupID64",
+      "type" : "number"
+    },
+    "groupDetails" : {
+      "id" : "http://wso2jsonschema.org/groupDetails",
+      "type" : "object",
+      "properties" : {
+        "groupName" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/groupName",
+          "type" : "string"
+        },
+        "groupURL" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/groupURL",
+          "type" : "string"
+        },
+        "headline" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/headline",
+          "type" : "string"
+        },
+        "summary" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/summary",
+          "type" : "string"
+        },
+        "avatarIcon" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/avatarIcon",
+          "type" : "string"
+        },
+        "avatarMedium" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/avatarMedium",
+          "type" : "string"
+        },
+        "avatarFull" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/avatarFull",
+          "type" : "string"
+        },
+        "memberCount" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/memberCount",
+          "type" : "number"
+        },
+        "membersInChat" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/membersInChat",
+          "type" : "number"
+        },
+        "membersInGame" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/membersInGame",
+          "type" : "number"
+        },
+        "membersOnline" : {
+          "id" : "http://wso2jsonschema.org/groupDetails/membersOnline",
+          "type" : "number"
+        }
+      }
+    },
+    "memberCount" : {
+      "id" : "http://wso2jsonschema.org/memberCount",
+      "type" : "number"
+    },
+    "totalPages" : {
+      "id" : "http://wso2jsonschema.org/totalPages",
+      "type" : "number"
+    },
+    "currentPage" : {
+      "id" : "http://wso2jsonschema.org/currentPage",
+      "type" : "number"
+    },
+    "startingMember" : {
+      "id" : "http://wso2jsonschema.org/startingMember",
+      "type" : "number"
+    },
+    "members" : {
+      "id" : "http://wso2jsonschema.org/members",
+      "type" : "object",
+      "properties" : {
+        "steamID64" : {
+          "id" : "http://wso2jsonschema.org/members/steamID64",
+          "type" : "array",
+          "items" : [ {
+            "id" : "http://wso2jsonschema.org/members/steamID64/0",
+            "type" : "number",
+            "properties" : {
+              "__" : {
+                "id" : "http://wso2jsonschema.org/members/steamID64/0",
+                "type" : "number"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}
